@@ -1,0 +1,14 @@
+.inputField.big {
+  width: 300px;
+  margin-right: 15px;
+}
+.tituloCadastro {
+  font-size: 3rem;
+  font-family: "IM Fell English SC", serif;
+}
+.datePickerField {
+  width: 200px;
+}
+.btnRegister {
+  width: 140px;
+}
