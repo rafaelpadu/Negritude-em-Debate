@@ -1,0 +1,31 @@
+.paperContainer {
+  min-height: 60vh;
+  max-width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+.paperContainer iframe {
+  max-width: 400px;
+  min-height: 220px;
+}
+.paperContainer p {
+  text-align: justify;
+  margin: 0 1rem 25px 1rem;
+  font-size: 18px;
+  font-weight: 800;
+  text-indent: 2em;
+  color: #f2b749;
+}
+.paperContainer h2 {
+  margin-top: 1em;
+  text-align: center;
+  color: rgb(219, 218, 218);
+}
+.paperContainer a {
+  margin-bottom: 2rem;
+  width: 150px;
+  height: 50px;
+}

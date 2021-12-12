@@ -1,0 +1,43 @@
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 448px;
+  margin: 3rem auto;
+}
+.loginHeader {
+  padding: 2.4rem 0 1rem;
+}
+.loginComponents {
+  text-align: center;
+  height: 18vh;
+  margin-top: 1.4rem;
+}
+.loginComponents div {
+  width: 316px;
+}
+.loginComponents div:nth-child(1) {
+  margin-bottom: 2rem;
+}
+
+.loginActions {
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.loginActions button {
+  width: 316px;
+  height: 67px;
+}
+.loginActions a {
+  text-decoration: none;
+  margin-bottom: 1rem;
+  color: rgb(211, 47, 47);
+}
+.loginActions a:hover {
+  color: #000;
+}

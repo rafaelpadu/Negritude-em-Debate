@@ -1,0 +1,30 @@
+.navMain {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 6rem;
+}
+.navMain a {
+  text-decoration: none;
+  text-transform: none;
+}
+.navMain h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: "none";
+  margin: auto;
+}
+.listLinkIten {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: "none";
+}
+.listLinkIten.last {
+  margin-right: 3rem;
+}
+.menuItem {
+  font-size: medium;
+  text-decoration: none;
+}

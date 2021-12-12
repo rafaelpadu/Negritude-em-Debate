@@ -1,13 +1,30 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  z-index: 3;
+  font-family: "Poppins", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: rgb(219, 218, 218);
+  margin-bottom: 1em;
+  font-family: "Sen", sans-serif;
+}
+.bold {
+  font-weight: bold;
+  color: rgb(219, 218, 218);
+}
+.h2 {
+  font-family: "Sen", sans-serif;
+  color: rgb(219, 218, 218);
+}
+html,
+body {
+  height: 100%;
+  background: url("./assets/girl-gf76a29803_1920 (1).jpg");
+  background-size: cover;
+}
+.maskContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  min-height: 100vh;
 }

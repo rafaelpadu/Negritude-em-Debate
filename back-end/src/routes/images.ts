@@ -1,11 +1,14 @@
-import { Router, Request, Response } from "express";
-import uploads from "../database/configs/upload";
+import { Router } from "express";
+import imageController from "../controllers/ImageController";
+import imageUpload from "../helpers/image-upload";
+import verifyToken from "../helpers/verify-token";
 const imageRouter = Router();
-// const upload = multer({
-//   dest: "./uploads/",
-// });
-imageRouter.post("/upload", async (req, res) => {
-  res.send({ upload: true, files: req.files });
-});
 
+imageRouter.post(
+  "/register",
+  verifyToken,
+  imageUpload.array("images"),
+  imageController.register
+);
+imageRouter.get("/get-all", imageController.getAllImages);
 export default imageRouter;

@@ -1,0 +1,7 @@
+.cardPaper {
+  margin: 1.5em;
+}
+.cardMedia {
+  max-height: 450px;
+  object-fit: fill;
+}

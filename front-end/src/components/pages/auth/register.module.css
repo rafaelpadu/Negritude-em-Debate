@@ -1,0 +1,29 @@
+.gridForm {
+  text-align: center;
+  margin: 3rem auto;
+  padding: 1rem;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gridForm div {
+  margin-bottom: 1rem;
+}
+.gridForm input {
+  width: 333px;
+}
+.gridForm h2 {
+  font-size: 3rem;
+  font-family: "Roboto, sans-serif";
+}
+.datePickerField {
+  width: 200px;
+}
+.datePickerField button {
+  margin-top: 1rem;
+}
+.btnRegister {
+  width: 140px;
+}

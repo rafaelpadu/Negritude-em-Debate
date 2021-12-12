@@ -1,0 +1,10 @@
+.equipeContainer h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: #f2cf63;
+}
+.cardsComponent {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}

@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainContainer h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: #f2cf63;
+}
+.paperContainer {
+  display: flex;
+  flex-direction: row;
+}

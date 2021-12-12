@@ -1,0 +1,11 @@
+.mainAlbum {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainAlbum h1 {
+  color: #f2cf63;
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}

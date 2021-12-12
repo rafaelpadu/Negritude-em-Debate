@@ -1,0 +1,38 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.homeContainer h1 {
+  font-family: "Roboto", "sans-serif";
+  color: #f2cf63;
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.textVideo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.textVideo iframe {
+  height: 350px;
+  width: 450px;
+}
+.textVideoParagraphs {
+  width: 40%;
+}
+.textVideoParagraphs p {
+  text-align: justify;
+  text-indent: 2em;
+  left: 0;
+  padding-left: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 23px;
+  color: rgb(219, 218, 218);
+}
